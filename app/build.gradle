@@ -33,5 +33,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
 
     implementation 'com.github.LeoWorkForAndroid:TUpdate:v1.0.1'
+    implementation project(path: ':AnToolLib')
 
 }
