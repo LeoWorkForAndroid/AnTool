@@ -1,5 +1,6 @@
 package com.top.antool;
 
+import android.media.AudioRecord;
 import android.media.MediaRecorder;
 import android.os.Bundle;
 import android.os.Environment;
@@ -15,6 +16,8 @@ public class VoiceLineActivity extends AppCompatActivity  implements Runnable{
 
 
     private MediaRecorder mMediaRecorder;
+
+    private AudioRecord mAudioRecord;
     private boolean isAlive = true;
     private VoiceLineView voiceLineView;
     private Handler handler = new Handler() {
