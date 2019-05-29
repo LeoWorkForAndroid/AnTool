@@ -152,7 +152,7 @@ public class MainActivity extends AppCompatActivity implements Runnable{
             mRecordingFile.createNewFile();//创建新文件
         } catch (IOException e) {
             e.printStackTrace();
-            Log.e("lu","创建储存音频文件出错");
+            Log.e(TAG,"创建储存音频文件出错");
         }
 
         try {
@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity implements Runnable{
             }
             mDataOutputStream.close();
         } catch (Throwable t) {
-            Log.e(TAG, "Recording Failed");
+            Log.e(TAG, "Recording Failed   "+t.toString());
             stopRecord();
         }
     }
