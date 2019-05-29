@@ -2,12 +2,25 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:voiceView="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@android:color/black">
+                android:layout_height="match_parent">
 
     <com.top.antoollib.ui.VoiceLineView
             android:background="@android:color/black"
             android:id="@+id/voicLine"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/voicLine"
+            android:background="@drawable/circle"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:textAllCaps="false"
+            android:text="录音">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
 </RelativeLayout>
