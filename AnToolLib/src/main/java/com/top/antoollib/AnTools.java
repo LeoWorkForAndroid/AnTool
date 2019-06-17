@@ -3,6 +3,7 @@ package com.top.antoollib;
 import android.annotation.SuppressLint;
 import android.app.Application;
 import android.content.Context;
+import com.top.antoollib.tool.*;
 
 import com.top.antoollib.tool.AppTool;
 import com.top.antoollib.tool.BitmapTool;
