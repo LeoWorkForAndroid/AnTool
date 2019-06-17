@@ -1,7 +1,4 @@
-package com.top.antoollib;
-
-import java.io.FileOutputStream;
-import java.io.IOException;
+package com.top.antoollib.tool;
 
 /**
  *

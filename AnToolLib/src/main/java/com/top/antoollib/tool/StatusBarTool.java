@@ -1,4 +1,4 @@
-package com.top.antoollib;
+package com.top.antoollib.tool;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -15,6 +15,7 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.IntRange;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.drawerlayout.widget.DrawerLayout;
+import com.top.antoollib.R;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

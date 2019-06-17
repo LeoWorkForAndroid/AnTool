@@ -19,6 +19,7 @@
             android:layout_centerInParent="true"
             android:layout_margin="20dp"
             android:textAllCaps="false"
+            android:onClick="start"
             android:text="录音">
 
     </androidx.appcompat.widget.AppCompatButton>

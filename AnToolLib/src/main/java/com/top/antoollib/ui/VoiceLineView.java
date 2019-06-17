@@ -102,7 +102,7 @@ public class VoiceLineView extends View {
             rectF.right = circleInfo.getRadius() + i * circleCenterDistance + 2 * circleInfo.getRadius();
 
 
-            Log.e("Voice", "-------------------------" + this.getRootView().getHeight());
+           // Log.e("Voice", "-------------------------" + this.getRootView().getHeight());
 
             float x0 = circleInfo.getRadius() + i * circleCenterDistance;
             float y0 = this.getRootView().getHeight() / 2 - circleInfo.getWaist() - circleInfo.getRadius();

@@ -1,4 +1,4 @@
-package com.top.antoollib;
+package com.top.antoollib.tool;
 
 import java.text.NumberFormat;
 import java.util.Locale;
