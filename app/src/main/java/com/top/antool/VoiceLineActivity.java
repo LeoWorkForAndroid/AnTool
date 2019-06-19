@@ -72,6 +72,8 @@ public class VoiceLineActivity extends AppCompatActivity {
         button = findViewById(R.id.btn);
         button.setText("开始录音");
         initAudioRecord();
+
+
     }
 
     private void initAudioRecord() {
@@ -103,6 +105,8 @@ public class VoiceLineActivity extends AppCompatActivity {
      * 获取录取的音频,并且写入文件
      */
     private void startRecord() {
+        
+
         isRunning = true;
         new Thread() {
             @Override
@@ -160,4 +164,5 @@ public class VoiceLineActivity extends AppCompatActivity {
                 break;
         }
     }
+
 }
